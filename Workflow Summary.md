@@ -77,8 +77,15 @@ Search InterPro with your ORFs to find out the potential proteins that are being
 
 Using R packages such as gggenes or ggenomes, create a genome map for the virus and overlay the interpro domains over that map to see exactly which parts of the ORF hit against the InterPro database. 
 
+This notebook is written in R and would require an R kernel to run. 
+I installed R on my personal machine and ran this notebook with a Jupyter Notebook.
+
+Here is the notebook that I used to create this map: [Gene Map of Virus](https://colab.research.google.com/drive/1b-i40r0qWz5dmEQjR0qu93AzhPQyw4nN)
+
 An example of a genome map is this:
 ![image](https://user-images.githubusercontent.com/72664748/236890198-4646ea9b-31b4-45df-9223-e1bc7cf0bcd0.png)
+
+These maps are benefitial to create as they are great for reference and for quickly seeing which ORFs are present in your virus along with which parts of the ORF are well conserved and are predicted by InterPro.
 
 ### Throw the ORFs into AlphaFold
 

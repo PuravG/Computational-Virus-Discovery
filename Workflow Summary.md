@@ -94,6 +94,18 @@ Run each ORF in the [AlphaFold colab](https://colab.research.google.com/github/s
 For example this is the structural prediction for an RdRP protein. 
 <img width="815" alt="ORF 19 Rdrp Alpha Fold" src="https://user-images.githubusercontent.com/72664748/236890265-dcbd4bbb-7de6-4f88-87b9-fbd8ec33d4cd.png">
 
+### Structural Validation with Pymol
+
+Once you get the Alphafold prediction, open up the RdRP folder and take the .pdb file and put it into Pymol. Once in Pymol, you will be able to visualize the whole protein with all the structural predictions. 
+
+The following example will utilize an RdRP protein and by finding the A,B,C motifs in the structure we are 100% sure that this is an RdRP protein. This is the final stage of validation and checks. 
+
+I threw the RdRP .pdb file into Pymol, found and coloured motifs A,B,C to validate this RdRP protein. 
+
+![RdRP Pymol image](https://github.com/PuravG/Workflow-Summary/assets/72664748/4298ecfd-f71f-4a84-9d92-751f1e982b73)
+![ezgif com-gif-maker](https://github.com/PuravG/Workflow-Summary/assets/72664748/4172ccdf-468c-42b0-8f03-2378af84d569)
+
+
 ### Analyse the UTRs of the genome 
 
 Run the UTRs of the genome through RFAM and look for any structural RNA that pop up. You can check in "related" sequences and see if it's there too. You can throw the UTRs through mfold to see if the related seqeunces in RFAM have overall conserved structures. If they do, you can be pretty condifdent that they will have similar function, and have evovled together.
